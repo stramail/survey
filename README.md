@@ -51,7 +51,7 @@ $(document).ready(function(){
 			
 			
 			
-				/*var so=$(".col").val();*/
+				
 			$(".col").empty();
 			var gog=$(".col").append(h);
 			var uh= "ko="+gog;
@@ -76,7 +76,7 @@ $(document).ready(function(){
 <input type="button" onclick="tim()" id="lk"value="NEXT">
 </div>
 </form>
-<script>alert
+<script>
 function tim(h) {
 			window.location.href="surveyIntake.php/?m="+h;
 			alert('this where im');
